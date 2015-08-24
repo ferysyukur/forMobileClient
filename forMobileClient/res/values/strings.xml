@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aplikasi Jadwal Keuskupan Denpasar</string>
+    <string name="action_settings">Settings</string>
+    <string name="streetTxt">Street View</string>
+    <string name="sateliteTxt">Satellite View</string>
+
+</resources>

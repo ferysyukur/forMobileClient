@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.nim100010482.formobileclient.MainActivity" >
+    
+    <Button
+        android:id="@+id/btnStartService"
+        style="@style/btnStyleOrange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:onClick="klikButton"
+        android:text="Start Service"
+        android:textColor="#fff" />
+    
+    <Button
+        android:id="@+id/btnViewInfo"
+        style="@style/btnStyleOrange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnStartService"
+        android:layout_alignRight="@+id/btnStartService"
+        android:layout_below="@+id/btnStartService"
+        android:layout_marginTop="40dp"
+        android:onClick="klikButton"
+        android:text="View Info"
+        android:textColor="#fff" />
+    
+    <Button
+        android:id="@+id/btnPencarianLokasi"
+        style="@style/btnStyleOrange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnViewInfo"
+        android:layout_alignRight="@+id/btnViewInfo"
+        android:layout_below="@+id/btnViewInfo"
+        android:layout_marginTop="40dp"
+        android:onClick="klikButton"
+        android:text="Pencarian Lokasi"
+        android:textColor="#fff" />
+    
+    <Button
+        android:id="@+id/btnStopService"
+        style="@style/btnStyleOrange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnPencarianLokasi"
+        android:layout_alignRight="@+id/btnPencarianLokasi"
+        android:layout_below="@+id/btnPencarianLokasi"
+        android:layout_marginTop="40dp"
+        android:onClick="klikButton"
+        android:text="Stop Service"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        style="@style/btnStyleOrange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnStopService"
+        android:layout_below="@+id/btnStopService"
+        android:layout_marginTop="42dp"
+        android:onClick="klikButton"
+        android:text="About"
+        android:textColor="#fff" />
+
+
+ 
+</RelativeLayout>
